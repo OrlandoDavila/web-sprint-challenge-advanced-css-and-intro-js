@@ -307,6 +307,8 @@ function lotsOfArt(artistArr){
     paints.push(artistArr[i].name);
   }
 }
+  return paints;
+}
 console.log(lotsOfArt(artists));
 
 
