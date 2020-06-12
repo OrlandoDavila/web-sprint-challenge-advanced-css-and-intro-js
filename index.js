@@ -236,12 +236,12 @@ function getArtistByIndex(array, index) {
 lived in the 20th century (1900-2000) */
 
 function get20s(data){
-  let artistInThe20thCentury = [];
+  let artist20 = [];
   for(let i = 0;i<data.length;i++){
     if(data[i].years.substring(7)<=2000 || data[i].years.substring(0,5) >= 1900 ){
-      artistInThe20thCentury.push(data[i].name)
+      artist20.push(data[i].name)
     }
-  } return artistInThe20thCentury;  
+  } return artist20;  
 }
 /* Task 5: Create a function called `removeArtist` that takes two arguments:
  *     (1) artists array
